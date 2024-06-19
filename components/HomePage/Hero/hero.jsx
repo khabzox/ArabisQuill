@@ -18,10 +18,10 @@ export default function Hero() {
 
           <div>
             <h1 className="mb-8 text-4xl font-extrabold text-primHov md:text-5xl lg:text-6xl">
-              {"جميع الدروس لسلك ثانوي تأهيلي"}
+              {"جميع الدروس للسلك الثانوي التأهيلي"}
             </h1>
             <p className="mb-8 text-lg text-center font-normal text-primText lg:text-lg sm:px-16 xl:px-48">
-                {"منصة الدروس الشاملة لسلك ثانوي تأهيلي تقدم دروس منضمة ودقيق إضافتا إلى إحتوائها على شرح مفصل من قبل أستاذة ذات خبرة عالية. يمكن للطلاب الوصول إلى المحتوى التعليمي على مدار الساعة من أي مكان يناسبهم، مما يزيد من مرونة وفعالية عملية التعلم"}
+                {"منصة الدروس الشاملة للسلك الثانوي التأهيلي تقدم دروس منضمة ودقيق إضافتا إلى إحتوائها على شرح مفصل من قبل أستاذة ذات خبرة عالية. يمكن للطلاب الوصول إلى المحتوى التعليمي على مدار الساعة من أي مكان يناسبهم، مما يزيد من مرونة وفعالية عملية التعلم"}
             </p>
             <div className="flex items-center justify-center mb-8 lg:mb-16 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               {ButtonGrid1("/dashboard", "إستكشف")}
