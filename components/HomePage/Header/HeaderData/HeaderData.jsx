@@ -6,11 +6,6 @@ export const HeaderData = [
   },
   {
     id: 2,
-    LinkTo: "#",
-    LinkText: "مميزاتنا",
-  },
-  {
-    id: 3,
     LinkTo:"#",
     LinkText: `تواصل معنا`,
   },

@@ -18,6 +18,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        prim: "#191c3a",
+        primHov: "#262A56",
+        secnd: "#B8621B",
+        secndHov: "#E3CCAE",
+        primText: "#373c73",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

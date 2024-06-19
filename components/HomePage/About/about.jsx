@@ -1,29 +1,29 @@
+import { ButtonGrid1 } from "@/components/shared/ButtonGrid";
 import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <section className="bg-gray-800 ">
+    <section className="mt-10">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Left Content (Image) */}
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <div className="relative h-80 md:h-96">
+          <div className="relative pl-16">
             <Image
-              src="/path/to/your/image.jpg"
+              src="/images/about/studyPep.png"
               alt="Image Alt Text"
-              layout="fill"
-              objectFit="cover"
+              width="400"
+              height="800"
             />
           </div>
         </div>
 
         {/* Right Content (Text) */}
-        <div className="md:w-1/2 md:pl-12">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">About Us</h1>
-          <p className="text-lg mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris. Nulla convallis quam sit amet nulla rutrum
-            tristique.
+        <div className="md:w-1/2 md:pl-12 text-right">
+          <h1 className="text-3xl text-primHov md:text-5xl font-bold mb-4">{"موقع دروس اللغة العربية لسلك الثانوي التأهيلي"}</h1>
+          <p className="text-lg mb-6 text-primText">
+            {"استكشفوا منصة التعليم الشاملة للسلك الثانوي التأهيلي، حيث تقدم لكم جميع دروس اللغة العربية بأسلوب منظم وشرح دقيق من قبل أستاذة ذات خبرة عالية. يمكن للطلاب الوصول إلى المحتوى التعليمي على مدار الساعة من أي مكان يناسبهم، مما يعزز من مرونة وفعالية عملية التعلم. انضموا إلينا اليوم للاستفادة من تجربة تعليمية استثنائية في مادة اللغة العربية"}
           </p>
+          {ButtonGrid1("/dashboard", "إستكشف")}
         </div>
       </div>
     </section>
