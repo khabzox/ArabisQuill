@@ -24,8 +24,8 @@ export default function Hero() {
                 {"منصة الدروس الشاملة للسلك الثانوي التأهيلي تقدم دروس منضمة ودقيق إضافتا إلى إحتوائها على شرح مفصل من قبل أستاذة ذات خبرة عالية. يمكن للطلاب الوصول إلى المحتوى التعليمي على مدار الساعة من أي مكان يناسبهم، مما يزيد من مرونة وفعالية عملية التعلم"}
             </p>
             <div className="flex items-center justify-center mb-8 lg:mb-16 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-              {ButtonGrid1("/", "إستكشف")}
-              {ButtonGrid2("/", "مشاهدة")}
+              {ButtonGrid1("#", "إستكشف")}
+              {ButtonGrid2("#", "مشاهدة")}
             </div>
           </div>
 {/* 
