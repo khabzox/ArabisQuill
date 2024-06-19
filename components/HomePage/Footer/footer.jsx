@@ -13,7 +13,7 @@ export default function Footer() {
                 </div>
 
             <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
-              Copyright &copy; {new Date().getFullYear()}. All rights reserved
+              Copyright &copy; {new Date().getFullYear()}. All rights reserved. Programmed by <span className="underline hover:underline " title="Programmed by Abdelkabir Ouadoukou ( Click ME! )"><a href="https://github.com/khabzox" target="_blank">Khabzox</a></span>
             </p>
           </div>
         </div>
